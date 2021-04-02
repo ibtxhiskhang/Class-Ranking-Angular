@@ -24,11 +24,11 @@ h2 {
 }
 .students li.selected {
     background-color: #CFD8DC;
-    color: white;
+    color: red;
 }
 .students li.selected:hover {
     background-color: #BBD8DC;
-    color: white;
+    color: red;
 }
 .students .rank {
     display: inline-block;
@@ -46,5 +46,27 @@ h2 {
 }
 
 .students .name {
+    font-weight: bold;
+}
+
+.textbox {
+    width: 80%;
+}
+
+#mainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.profilepicture {
+    width: 150px !important;
+    height: 150px !important;
+    border: 4px black solid;
+    border-radius: 50%;
+}
+
+.text {
+    color: red;
+    font-size: large;
     font-weight: bold;
 }
